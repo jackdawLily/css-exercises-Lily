@@ -1,13 +1,15 @@
-#first {
+.first {
     background-color: #000000;
     color: #FFFFFF;
     font-weight: bold;
 }
 
-#second {
+.second {
     background-color: #FFFF00;
 }
-.both {
+
+.first,
+.second {
     font-size: 28px;
-    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-family: Helvetica, "Times New Roman";
 }
